@@ -1,52 +1,29 @@
-import Image from "next/image";
-import Stripes from "@/public/images/stripes-dark.svg";
-
 export default function Cta() {
   return (
-    <section>
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div
-          className="relative overflow-hidden rounded-2xl text-center shadow-xl before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:rounded-2xl before:bg-gray-900"
-          data-aos="zoom-y-out"
-        >
-          {/* Glow */}
-          <div
-            className="absolute bottom-0 left-1/2 -z-10 -translate-x-1/2 translate-y-1/2"
-            aria-hidden="true"
+    <section className="bg-slate-950 py-24 relative overflow-hidden">
+      
+      {/* Golden accents */}
+      <div className="absolute inset-0 pointer-events-none -z-10" aria-hidden="true">
+        <div className="absolute bottom-0 right-1/4 w-[400px] h-[400px] bg-yellow-600/10 rounded-full blur-[100px]"></div>
+      </div>
+
+      <div className="mx-auto max-w-4xl px-4 sm:px-6">
+        <div className="relative border border-slate-800 bg-slate-900 px-8 py-16 text-center shadow-2xl">
+          
+          <h2 className="mb-6 text-3xl font-jakarta font-bold text-white md:text-5xl">
+            Pronto para iluminar o seu negócio?
+          </h2>
+          <p className="mb-10 text-slate-400 font-light text-lg max-w-2xl mx-auto">
+            Agende um diagnóstico orgânico sem compromisso. Vamos analisar a sua presença digital atual e desenhar o roteiro para o topo do Google.
+          </p>
+
+          <a
+            href="https://wa.me/5561999999999"
+            target="_blank"
+            className="inline-flex justify-center items-center px-10 py-4 bg-yellow-600 hover:bg-yellow-500 text-slate-950 font-bold text-lg transition-all uppercase tracking-wide"
           >
-            <div className="h-56 w-[480px] rounded-full border-[20px] border-blue-500 blur-3xl" />
-          </div>
-          {/* Stripes illustration */}
-          <div
-            className="pointer-events-none absolute left-1/2 top-0 -z-10 -translate-x-1/2 transform"
-            aria-hidden="true"
-          >
-            <Image
-              className="max-w-none"
-              src={Stripes}
-              width={768}
-              height={432}
-              alt="Stripes"
-            />
-          </div>
-          <div className="px-4 py-12 md:px-12 md:py-20">
-            <h2 className="mb-6 border-y text-3xl font-bold text-gray-200 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-700/.7),transparent)1] md:mb-12 md:text-4xl">
-              Create your next project with Simple
-            </h2>
-            <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
-              <a
-                className="btn group mb-4 w-full bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-sm hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                href="#0"
-              >
-                <span className="relative inline-flex items-center">
-                  Start Free Trial{" "}
-                  <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
-                    -&gt;
-                  </span>
-                </span>
-              </a>
-            </div>
-          </div>
+            Agendar Diagnóstico Gratuito
+          </a>
         </div>
       </div>
     </section>
