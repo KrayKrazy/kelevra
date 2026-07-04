@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className="scroll-smooth">
       <body
-        className={`${inter.variable} ${playfair.variable} bg-[#0A0F1C] font-inter tracking-tight text-slate-300 antialiased selection:bg-slate-800 selection:text-white`}
+        className={`${inter.variable} ${playfair.variable} bg-[#0B1528] font-inter tracking-tight text-slate-300 antialiased selection:bg-[#D4AF37]/30 selection:text-white`}
       >
         <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
           {children}

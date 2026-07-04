@@ -15,17 +15,17 @@ export default function Features() {
   ];
 
   return (
-    <section id="servicos" className="bg-[#0A0F1C] py-24 border-b border-slate-800">
+    <section id="servicos" className="bg-[#0B1528] py-24 border-b border-slate-800/50">
       <div className="mx-auto max-w-5xl px-4 sm:px-6">
         
-        <div className="mb-12">
-          <h2 className="text-2xl md:text-3xl font-playfair font-medium text-white mb-4">A tríade do crescimento orgânico.</h2>
+        <div className="mb-12 border-l-2 border-[#D4AF37] pl-4">
+          <h2 className="text-2xl md:text-3xl font-playfair font-medium text-[#D4AF37] mb-4">A tríade do crescimento orgânico.</h2>
         </div>
         
         <div className="space-y-4">
           {services.map((item, index) => (
-            <div key={index} className="flex flex-col md:flex-row md:items-start p-8 border border-slate-800 bg-transparent">
-              <div className="md:w-1/3 mb-4 md:mb-0 text-slate-500 font-mono text-sm">
+            <div key={index} className="flex flex-col md:flex-row md:items-start p-8 border border-slate-800/50 bg-[#0B1528]">
+              <div className="md:w-1/3 mb-4 md:mb-0 text-[#D4AF37] font-mono text-sm">
                 0{index + 1} // {item.title}
               </div>
               <div className="md:w-2/3">

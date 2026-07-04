@@ -15,11 +15,11 @@ export default function Faq() {
   ];
 
   return (
-    <section className="bg-[#0A0F1C] py-24 border-b border-slate-800">
+    <section className="bg-[#0B1528] py-24 border-b border-slate-800/50">
       <div className="mx-auto max-w-5xl px-4 sm:px-6">
         
-        <div className="mb-12">
-          <h2 className="text-2xl md:text-3xl font-playfair font-medium text-white mb-4">FAQ.</h2>
+        <div className="mb-12 border-l-2 border-[#D4AF37] pl-4">
+          <h2 className="text-2xl md:text-3xl font-playfair font-medium text-[#D4AF37] mb-4">FAQ.</h2>
         </div>
 
         <div className="space-y-6 max-w-3xl">
