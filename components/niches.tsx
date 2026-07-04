@@ -2,38 +2,32 @@ export default function Niches() {
   const niches = [
     { 
       title: "Prestadores de Serviço", 
-      desc: "Advogados, médicos, contadores e clínicas. Transformamos seu site na maior fonte de captação de leads desqualificando curiosos e atraindo clientes High-Ticket.",
-      tag: "Leads Qualificados"
+      desc: "Advogados, clínicas e consultórios. Transformamos seu site na maior fonte de captação, desqualificando curiosos e atraindo perfis High-Ticket.",
     },
     { 
       title: "Negócios Locais", 
-      desc: "Dominamos o Google Meu Negócio e as buscas geolocalizadas. Quando alguém na sua cidade pesquisar pelo seu serviço, é a sua empresa que vai aparecer primeiro.",
-      tag: "Domínio Regional"
+      desc: "Domínio absoluto no Google Meu Negócio e nas buscas geolocalizadas em Goiás e Brasília. Quando buscam pelo seu serviço, você é a única opção.",
     },
     { 
-      title: "E-commerces & Lojas", 
-      desc: "Reduza a sua dependência de tráfego pago. Ranqueamos seus produtos nas primeiras páginas para você vender 24h por dia sem pagar por clique.",
-      tag: "Vendas Orgânicas"
+      title: "Comércio & E-commerce", 
+      desc: "Redução drástica do Custo de Aquisição (CAC). Posicionamos seus produtos organicamente para vendas 24h sem dependência de anúncios.",
     }
   ];
 
   return (
-    <section className="relative py-24 bg-slate-950 border-t border-slate-900">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+    <section className="bg-[#0A0F1C] py-24 border-b border-slate-800">
+      <div className="mx-auto max-w-5xl px-4 sm:px-6">
         
-        <div className="text-center mb-16 max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-jakarta font-bold text-white mb-4">Especialistas no seu modelo de negócio</h2>
-          <p className="text-slate-400 font-light text-lg">Não fazemos SEO genérico. Nossa estratégia é desenhada milimetricamente para a jornada de compra do seu setor.</p>
+        <div className="mb-12">
+          <h2 className="text-2xl md:text-3xl font-playfair font-medium text-white mb-4">Arquitetura focada no seu modelo de negócio.</h2>
+          <p className="text-slate-400 font-light max-w-2xl">Não aplicamos fórmulas genéricas. Desenhamos a estrutura orgânica baseada em como o seu cliente ideal pesquisa na internet.</p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border-t border-l border-slate-800">
           {niches.map((item, index) => (
-            <div key={index} className="bg-slate-900 rounded-2xl p-8 border border-slate-800 hover:border-yellow-600/30 transition-all shadow-lg">
-              <div className="inline-block px-3 py-1 bg-yellow-600/10 text-yellow-500 text-xs font-bold uppercase tracking-widest rounded mb-6 border border-yellow-600/20">
-                {item.tag}
-              </div>
-              <h3 className="text-2xl font-jakarta font-bold text-white mb-4">{item.title}</h3>
-              <p className="text-slate-400 font-light leading-relaxed">{item.desc}</p>
+            <div key={index} className="p-8 border-b border-r border-slate-800 bg-[#0A0F1C] hover:bg-slate-800/20 transition-colors">
+              <h3 className="text-lg font-medium text-white mb-3">{item.title}</h3>
+              <p className="text-slate-400 font-light text-sm leading-relaxed">{item.desc}</p>
             </div>
           ))}
         </div>

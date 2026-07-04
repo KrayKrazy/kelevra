@@ -1,6 +1,6 @@
 import "./css/style.css";
 
-import { Inter, Plus_Jakarta_Sans } from "next/font/google";
+import { Inter, Playfair_Display } from "next/font/google";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -8,15 +8,16 @@ const inter = Inter({
   display: "swap",
 });
 
-const jakarta = Plus_Jakarta_Sans({
+const playfair = Playfair_Display({
   subsets: ["latin"],
-  variable: "--font-jakarta",
+  variable: "--font-playfair",
   display: "swap",
 });
 
 export const metadata = {
-  title: "Kelevra Corp. | O Futuro é Iluminado",
-  description: "Especialistas em SEO, AEO e Desenvolvimento de Alta Performance para posicionar sua empresa no topo das buscas.",
+  title: "Kelevra Corp. | Agência de Marketing e SEO em Santo Antônio do Descoberto - GO",
+  description: "A principal Agência de Marketing, SEO e AEO de Santo Antônio do Descoberto, Goiás. Dominamos as buscas do Google e transformamos sites em máquinas de vendas B2B.",
+  keywords: "Agência de Marketing Santo Antônio do Descoberto, SEO Goiás, Criação de Sites Santo Antônio do Descoberto, Marketing Digital GO",
 };
 
 export default function RootLayout({
@@ -27,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className="scroll-smooth">
       <body
-        className={`${inter.variable} ${jakarta.variable} bg-slate-950 font-inter tracking-tight text-slate-300 antialiased selection:bg-yellow-500/30 selection:text-yellow-200`}
+        className={`${inter.variable} ${playfair.variable} bg-[#0A0F1C] font-inter tracking-tight text-slate-300 antialiased selection:bg-slate-800 selection:text-white`}
       >
         <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
           {children}
