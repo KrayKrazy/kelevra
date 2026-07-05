@@ -42,7 +42,7 @@ export default function ActionPlanSlide() {
             
             <div className="pt-8" data-aos="fade-up" data-aos-delay="600">
                 <a
-                  href="https://wa.me/5561999999999"
+                  href="https://wa.me/5561981849873"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-block px-10 py-5 border border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-[#050507] font-semibold tracking-widest uppercase text-sm transition-all duration-300"
