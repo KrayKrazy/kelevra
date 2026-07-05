@@ -1,19 +1,13 @@
-import Hero from "@/components/hero-home";
-import Niches from "@/components/niches";
-import Features from "@/components/features";
-import Process from "@/components/process";
-import Faq from "@/components/faq";
-import Cta from "@/components/cta";
+import HeroSlide from "@/components/cinematic/HeroSlide";
+import ValueMatrixSlide from "@/components/cinematic/ValueMatrixSlide";
+import ActionPlanSlide from "@/components/cinematic/ActionPlanSlide";
 
 export default function Home() {
   return (
     <>
-      <Hero />
-      <Niches />
-      <Features />
-      <Process />
-      <Faq />
-      <Cta />
+      <HeroSlide />
+      <ValueMatrixSlide />
+      <ActionPlanSlide />
     </>
   );
 }

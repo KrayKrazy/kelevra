@@ -205,3 +205,34 @@
     border-color: var(--color-gray-200, currentColor);
   }
 }
+
+@layer utilities {
+  .text-metallic {
+    background: linear-gradient(135deg, #D4AF37 0%, #F3E5AB 40%, #B8860B 60%, #8B6508 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .bg-navy-deep {
+    background-color: #050507;
+  }
+}
+
+@layer components {
+  /* Gráficos em Código Puro (SVGs Indestrutíveis) */
+  @keyframes pulse-slow {
+      0%, 100% { opacity: 0.1; }
+      50% { opacity: 0.4; }
+  }
+  .wireframe-svg {
+      animation: pulse-slow 6s infinite ease-in-out;
+  }
+  
+  .wireframe-svg path, .wireframe-svg line, .wireframe-svg circle, .wireframe-svg ellipse, .wireframe-svg polygon {
+      stroke: #334155; 
+  }
+  .wireframe-svg .fill-white {
+      fill: #334155;
+  }
+}
