@@ -42,7 +42,7 @@ export default function ActionPlanSlide() {
             
             <div className="pt-8" data-aos="fade-up" data-aos-delay="600">
                 <a
-                  href="https://wa.me/5561981849873"
+                  href="https://wa.me/5561981849873?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Kelevra%20Corp%20e%20gostaria%20de%20entender%20como%20transformar%20meu%20Google%20Meu%20Neg%C3%B3cio%20em%20uma%20m%C3%A1quina%20de%20vendas%20org%C3%A2nica."
                   target="_blank"
                   rel="noreferrer"
                   className="inline-block px-10 py-5 border border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-[#050507] font-semibold tracking-widest uppercase text-sm transition-all duration-300"

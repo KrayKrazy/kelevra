@@ -1,5 +1,6 @@
 import HeroSlide from "@/components/cinematic/HeroSlide";
 import ValueMatrixSlide from "@/components/cinematic/ValueMatrixSlide";
+import GoogleBusinessSlide from "@/components/cinematic/GoogleBusinessSlide";
 import ActionPlanSlide from "@/components/cinematic/ActionPlanSlide";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <>
       <HeroSlide />
       <ValueMatrixSlide />
+      <GoogleBusinessSlide />
       <ActionPlanSlide />
     </>
   );
