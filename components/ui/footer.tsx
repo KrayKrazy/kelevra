@@ -15,7 +15,7 @@ export default function Footer() {
           </p>
           <p>(61) 98184-9873</p>
           <p>kelevracontato@gmail.com</p>
-          <p className="max-w-xs mt-2">Quadra 24 lote 11 apartamento 1 Parque Estrela Dalva XI, Santo Antônio do Descoberto - Goiás</p>
+          <p className="max-w-xs mt-2">Santo Antônio do Descoberto - Goiás</p>
           <p className="pt-4 text-slate-600">Kelevra Corp &copy; 2026.</p>
         </div>
       </div>
